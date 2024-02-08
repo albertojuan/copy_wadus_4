@@ -6,4 +6,4 @@ SQL >
 
 TYPE COPY
 TARGET_DATASOURCE analytics_events_copy
-COPY_SCHEDULE 30 * * * *
+COPY_SCHEDULE 33 * * * *
