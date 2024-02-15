@@ -3,7 +3,3 @@ TOKEN "scheduled_copy_t_41d1b3f46e624102a86a8b276f66f749" READ
 NODE new_cop
 SQL >
     SELECT * FROM analytics_events
-
-TYPE COPY
-TARGET_DATASOURCE analytics_events_copy
-COPY_SCHEDULE 10 * * * *
