@@ -1,0 +1,9 @@
+TOKEN "scheduled_copy_t_659d846b1a504d83a4eda6d2f6ce1e57" READ
+
+NODE new_cop
+SQL >
+    SELECT * FROM analytics_events
+
+TYPE COPY
+TARGET_DATASOURCE analytics_events_copy
+COPY_SCHEDULE 1 * * * *
